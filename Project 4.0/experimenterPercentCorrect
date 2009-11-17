@@ -1,0 +1,21 @@
+Tester:     weka.experiment.PairedCorrectedTTester
+Analysing:  Percent_correct
+Datasets:   1
+Resultsets: 3
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       11/17/09 2:19 PM
+
+
+Dataset                   (1) trees.J4 | (2) rules (3) rules
+------------------------------------------------------------
+iris                     (100)   94.73 |   93.53     33.33 *
+------------------------------------------------------------
+                               (v/ /*) |   (0/1/0)   (0/0/1)
+
+
+Key:
+(1) trees.J48 '-C 0.25 -M 2' -2.17733168393644448E17
+(2) rules.OneR '-B 6' -2.4594270021478615E18
+(3) rules.ZeroR '' 4.8055541465867952E16
+
